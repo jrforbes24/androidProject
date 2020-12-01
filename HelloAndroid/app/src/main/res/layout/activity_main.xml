@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jrforbes24.helloandroid.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Udacity"
+        android:textColor="#f59038"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:padding="16dp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:text="2465 Latham St"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        android:textColor="#8f92af"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:text="Mountain View, CA 94043"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        android:textColor="#8f92af"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:text="650-555-5555"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        android:textColor="#8f92af"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:scaleType="fitEnd"
+        android:src="@drawable/udacity" />
+
+
+
+</LinearLayout>

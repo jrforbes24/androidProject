@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hot Chocolate</string>
+    <!--Header text for the list of toppings-->
+    <string name="toppings">Toppings</string>
+    <!--Hint for the name text field-->
+    <string name="hint_name">Name</string>
+    <!--Thank you used to express gratitude in the Order summary-->
+    <string name="thank_you">Thank You!</string>
+    <!--
+        Name for the order summary. It will be shown in the format of "Name: Amy
+        where Amy is the user's name.
+    -->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <!--One of the toppings-->
+    <string name="whipped_cream">Whipped Cream</string>
+    <!--Another one of the toppings-->
+    <string name="chocolate">Chocolate</string>
+    <!--Header text for the number of Hot Chocolates-->
+    <string name="quantity">Quantity</string>
+    <!--The text on the button for the order-->
+    <string name="order">Order</string>
+
+    <!--Total in the order summary-->
+    <string name="total_Order">Total: $</string>
+    <!--
+    This will be part of the order summary an example would look like this "Add whipped cream? true"
+    -->
+    <string name="order_has_whipped_cream">Add whipped cream? <xliff:g example="true" id="order_WC">%b</xliff:g> </string>
+    <!--
+    This will be part of the order summary an example would look like this "Add chocolate? true"
+    -->
+    <string name="order_has_chocolate">Add chocolate? <xliff:g example="true" id="order_Choc">%b</xliff:g> </string>
+    <!--
+    This will be part of the order summary to display the number of cup of hot chocolate ordered,
+    -->
+    <string name="quantity_Order">Quantity: <xliff:g example="5" id="quant_Order">%d</xliff:g> </string>
+
+</resources>
