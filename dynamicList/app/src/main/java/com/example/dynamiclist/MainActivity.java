@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -38,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         nameListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+                Log.i( "Hero chosen: ", myHeroes.get(i));
+                Toast.makeText(getApplicationContext(), myHeroes.get(i) + " has been chosen.", Toast.LENGTH_LONG).show();
             }
         });
 
